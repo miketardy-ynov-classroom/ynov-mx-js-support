@@ -119,7 +119,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Sripting 
+## Scripting 
 
 - bash, shell
 - powershell
@@ -137,6 +137,9 @@ Ingesup Mx / YNOV / 2018
 ## Format
 
 - HTML, css
+- Markdown
+- LateX
+- json, yml
 
 ---
 
@@ -158,7 +161,7 @@ Ingesup Mx / YNOV / 2018
 ## Frameworks
 
 - AngularJS, Vuejs, React, Preact
-- Spring, Laravel
+- Spring, Laravel, Express, Django
 
 ---
 
@@ -176,13 +179,16 @@ Ingesup Mx / YNOV / 2018
 
 ## Build and Continuous integration
 
-- Jenkins, TravisCI
+- Jenkins, TravisCI, Bamboo, CircleCI, Gitlab
 
 ---
 
 ## DevOps
 
-- Docker, VirtualBox, Heroku
+- Docker, Rkt, Kubernetees, VirtualBox, 
+- vmware esxi
+- Heroku
 
 ---
+
 
