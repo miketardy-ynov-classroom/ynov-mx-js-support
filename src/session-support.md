@@ -191,3 +191,86 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
+# Agile Development
+
+---
+
+## Approach 
+
+- BDD / TDD
+- Clean code
+
+---
+
+## Definitions
+
+- Kanban
+- Scrum
+
+---
+
+## Basics 
+
+- Iterative 
+- Regular
+- Adjustable
+- Clear scope
+
+---
+
+## Tools 
+
+- Gitflow
+- Waffle, Trello, Taiga
+
+---
+
+# Project packaging / scoring
+
+---
+
+## Project management
+
+- Kanban
+- Links (waffle, github)
+
+---
+
+## Documentation 
+
+- Functional Specifications 
+- Technical Specifications 
+
+---
+
+## App Sources 
+
+- Repo link
+- Everything required to build the app
+- Database model (if needed)
+
+---
+
+## Sources 
+
+- Quality
+
+---
+
+## Infrastructure Sources
+
+- Scripts 
+- Docker files
+- Ansible (?)
+
+---
+
+## Deployment 
+
+- Link
+
+---
+
+## Resources 
+
+- https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en
