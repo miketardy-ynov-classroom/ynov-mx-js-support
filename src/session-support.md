@@ -1,4 +1,4 @@
-# Web Full Stack
+# ~~Angular~~ Web Full Stack
 
 Ingesup Mx / YNOV / 2018
 
@@ -16,17 +16,19 @@ Ingesup Mx / YNOV / 2018
 ## Household
 ### Tools 
 
+- Slideshow: markdown & reveal-md
 - Graphs and Whiteboard: draw.io
 - IDE: atom.io, visual studio code or whatever
 - Trello, Github, gitlab
 
 ---
 
-## Approach 
+## Don't expect
 
-- Understand the basics
-- Be curious 
-- Don't be overexcited 
+- 90h of coding
+- 90h of Angular
+- Tech tutorials
+- Wordpress
 
 ---
 
@@ -46,6 +48,21 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
+## Approach 
+
+- Understand the basics
+- Don't panic
+- Don't get overexcited 
+- Stay curious
+
+---
+
+## Approach
+
+*“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.”* — Abraham Lincoln.
+
+---
+
 ## Project 
 
 - Identify
@@ -55,20 +72,71 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
+# Introduction
+
+---
+
+## What is full-stack 
+
+- Everything developer
+- Front-end, Back-end, Continuous Integration, Infrastructure
+
+---
+
+## Full-stack developer in real world
+
+- Candidate 1: *Java/JEE, MySQL, Angular 1.x*
+
+- Candidate 2: *Javascript, Python, React, Vue, Docker and whatever with 10 years experience*
+
+- How I get my first job as developer ([google it](https://www.google.fr/search?rls=en&q=how+I+get+my+first+job+as+developer&ie=UTF-8&oe=UTF-8))
+
+---
+
+## Full-stack 
+
+- Stay focused
+- Be efficient
+- Right tool for right use
+
+---
+
+## Full-stack 
+
+- Best practices
+- [Clean Code](https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en)
+
+---
+
 # Tech stack
 
 ---
 
+## OS
+
+- \*n\*x: 
+- CoreOS, CentOS, Ubuntu, 
+
+---
 
 ## Sripting 
 
-- bash, shell... powershell
+- bash, shell
+- powershell
+- python
 
 ---
 
 ## Version control
 
-- git... TFS, Mercury...
+- **git**
+- TFS, Mercury...
+
+---
+
+## Format
+
+- HTML, css
 
 ---
 
@@ -81,12 +149,16 @@ Ingesup Mx / YNOV / 2018
 ## Databases
 
 - MySQL, MongoDB
+- Neo4J
+- Redis
+- InfluxDB
 
 ---
 
-## Framework
+## Frameworks
 
 - AngularJS, Vuejs, React, Preact
+- Spring, Laravel
 
 ---
 
@@ -99,6 +171,12 @@ Ingesup Mx / YNOV / 2018
 ## Build mangement
 
 - node, gulp grunt, webpack, parcel
+
+---
+
+## Build and Continuous integration
+
+- Jenkins, TravisCI
 
 ---
 
