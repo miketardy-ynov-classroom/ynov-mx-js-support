@@ -1,0 +1,14 @@
+{
+  "name": "ynov-mx-js-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "showtime": "node_modules/reveal-md/bin/cli.js src/session-support.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^1.1.3"
+  }
+}
