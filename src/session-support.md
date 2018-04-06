@@ -72,6 +72,10 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
+# April 5th
+
+---
+
 # Introduction
 
 ---
@@ -270,6 +274,237 @@ Ingesup Mx / YNOV / 2018
 - Link
 
 ---
+
+# April 6th
+
+---
+
+# Dataflow
+
+---
+
+## Data assessment
+### Data Identification 
+
+- Data item types => confidentiality, integrity, and availability needs.
+
+---
+
+## Data assessment
+### Data Ownership and users 
+
+- The data item owners and users => confidentiality, integrity, and possibly availability needs
+
+---
+
+## Data assessment
+### Data Confidentiality 
+
+- The need to keep the data secret from unauthorized persons. 
+- how much damage would be done if the data were obtained by unauthorized persons.
+- None/Low/Medium/High
+
+---
+
+## Data assessment
+### Data Integrity 
+
+- The need to keep the data accurate and not allow unauthorized persons to change it. 
+- Consider the impact if the data were not correct.
+- None/Low/Medium/High
+
+---
+
+## Data assessment
+### Data Availability 
+
+- The need for the data to be available to authorized users. 
+- Data owners should consider how their business processes would be impacted if they could not access their data for some period of time and what periods of time would be critical.
+- None/Low/Medium/High
+
+---
+
+## Data assessment
+### Data Criticality 
+
+- How essential the data is to the operation of the organization.
+
+---
+
+## Data assessment
+### Data Access Determination 
+
+- Determining minimum access needs.
+
+---
+
+## Data assessment
+### Data and Application Location 
+
+- Risks of sending data across the network 
+- Mitigation and transfer risk.
+
+---
+
+## Datatypes
+
+- Structured data: user accounts, posts
+
+---
+
+## Datatypes 
+
+- Unstructured data: images, documents
+
+---
+
+## Datatypes 
+
+- Metrtics: Logs, resources consumption 
+
+--- 
+
+## Data relationship 
+
+- Relationship
+- Isolated data 
+- Corelations 
+
+---
+
+## Data storage
+
+- Persistent 
+- Volatile 
+
+---
+
+## Data recipes 
+### Data store
+
+- Classics: Mysql, mongodb
+- In-memory: [Redis](https://redis.io)
+- Graphs: Neo4J
+
+---
+
+## Data recipes 
+### Local data store
+
+- [Browser Local/Session storage](https://www.w3schools.com/html/html5_webstorage.asp)
+- (Local browser) Data store: [PouchDB](https://pouchdb.com)
+- (Special occasion) Java: [wix-embedded-mysql](https://github.com/wix/wix-embedded-mysql), [flapdoodle](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo), derbydb
+- Native script: [Nativescript-couchbase](https://github.com/couchbaselabs/nativescript-couchbase)
+
+
+---
+
+## Data recipes 
+### Logs 
+
+- node: [winston](https://github.com/winstonjs/winston), [winston-logstash](https://logmatic.io/blog/efficient-json-logging-with-nodejs/)
+- Java: slf4j, log4j, logback
+- Overall: Logstash
+
+---
+
+## Data recipes 
+### Logs and Time series
+
+- InfluxDB
+- Graphite
+- Prometheus
+- ELK (Elasticsearch, Logstash, Kibana)
+https://db-engines.com/en/system/Elasticsearch%3BGraphite%3BInfluxDB%3BPrometheus
+
+---
+
+# Continuous Integration Pipeline
+
+---
+
+## Commons 
+
+- Git hook 
+- ssh / scp
+
+---
+
+## Build 
+
+- Beware of dependencies 
+- Git clone not enough 
+
+---
+
+## Build 
+
+- Test sources 
+- Generate packaging
+
+---
+
+## Build 
+
+- mvn
+- node ... 
+- shell
+- docker build
+
+---
+
+## Test 
+
+- Unit testing (already done at deployment)
+- Integration testing: is everything built correctly?
+- Deployment test: does it run?
+
+---
+
+### Staging / Release 
+
+- Can I release what I built
+- Shall I build again?
+
+---
+
+## Deploy 
+
+- ssh / scp
+- [Ansible](https://www.ansible.com) (actually ssh) 
+- Docker (... and who runs docker run?)
+
+---
+
+# Pipeline Basics
+
+---
+
+## Unit test
+
+exec stuff
+
+---
+
+## Build
+
+exec more stuff
+
+---
+
+## Test
+
+exec again
+
+---
+
+## Release 
+
+curl, wget, git clone, ... guess what? Exec again
+
+---
+
+
 
 ## Resources 
 
