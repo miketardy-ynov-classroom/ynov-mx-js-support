@@ -415,10 +415,75 @@ Ingesup Mx / YNOV / 2018
 - Graphite
 - Prometheus
 - ELK (Elasticsearch, Logstash, Kibana)
-https://db-engines.com/en/system/Elasticsearch%3BGraphite%3BInfluxDB%3BPrometheus
+- https://db-engines.com/en/system/Elasticsearch%3BGraphite%3BInfluxDB%3BPrometheus
+
+---
+
+# Request and Routing
+
+---
+
+## Where
+
+- Client-side 
+- Mono-Server
+- Multi-server
+- Mixed
+
+---
+
+## What 
+
+- Event / Request
+- Asset (strings, array, map / html, json, image, stream, ...)
+
+---
+
+## Journey
+
+- User-Request based
+
+---
+
+## Journey
+
+- Event-Based
+
+---
+
+## Journey
+
+- Time-Based
+
+---
+
+## Protocols 
+
+- HTTP(s)
+- WebSockets
+- SSH
+- AMQP
+- SMTP
+
+---
+
+## Paradigms 
+
+- REST 
+- [GraphQL](http://graphql.org)
+
+---
+
+## Tech recipes
+
+- [GraphQL](http://graphql.org)
+- [Socket.io](https://github.com/socketio/socket.io)
+- [STOMP](http://stomp.github.io)
+- [RabbitMQ](https://www.rabbitmq.com)
+- [Spring Boot and Embedded MQ](https://memorynotfound.com/spring-boot-embedded-activemq-configuration-example/)
 
 ---
 
 ## Resources 
 
-- https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en
+- https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
