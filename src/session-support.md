@@ -484,6 +484,131 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
+# Continuous Integration Pipeline
+
+---
+
+## Back to basics Basics
+
+- scripts
+- cron
+- env vars
+- ssh
+- git hook
+
+---
+
+## Scripting 
+
+- bash, shell
+- powershell
+- python
+
+---
+
+## Basics
+### SSH
+
+- ssh-key ([doc](https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html))
+- scp
+
+---
+
+## Basics
+### Cron 
+
+- Scheduling tool
+- Exec whatever
+```
+1 0 * * * printf "" > ./error_log   .
+```
+
+---
+
+## Basics
+### Git Hooks
+
+- Client side / Server side 
+- [Doc](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+- [More doc](https://www.atlassian.com/git/tutorials/git-hooks)
+
+---
+
+## Build 
+
+- Git clone not enough 
+- Beware of scope
+- Beware of dependencies
+
+---
+
+## Build 
+
+- Test sources 
+- Generate packaging
+
+---
+
+## Build 
+
+- mvn
+- node ... 
+- shell
+- docker build
+
+---
+
+## Test 
+
+- Unit testing (already done at deployment)
+- Integration testing: is everything built correctly?
+- Deployment test: does it run?
+
+---
+
+### Staging / Release 
+
+- Can I release what I built
+- Shall I build again?
+
+---
+
+## Deploy 
+
+- ssh / scp
+- [Ansible](https://www.ansible.com) (actually ssh) 
+- Docker (... and who runs docker run?)
+
+---
+
+# Pipeline Basics
+
+---
+
+## Unit test
+
+exec stuff
+
+---
+
+## Build
+
+exec more stuff
+
+---
+
+## Test
+
+exec again
+
+---
+
+## Release 
+
+curl, wget, git clone, ... guess what? Exec again
+
+---
+
 ## Resources 
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
