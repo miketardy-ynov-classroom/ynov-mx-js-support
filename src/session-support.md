@@ -362,7 +362,7 @@ Ingesup Mx / YNOV / 2018
 
 - Metrtics: Logs, resources consumption 
 
---- 
+---
 
 ## Data relationship 
 
@@ -402,8 +402,8 @@ Ingesup Mx / YNOV / 2018
 ## Data recipes 
 ### Logs 
 
-- node: [winston](https://github.com/winstonjs/winston), [winston-logstash](https://logmatic.io/blog/efficient-json-logging-with-nodejs/)
-- Java: slf4j, log4j, logback
+- node: [winston](https://github.com/winstonjs/winston), [winston transports](https://github.com/winstonjs/winston/blob/master/docs/transports.md)
+- Java: slf4j, log4j, logback (and [appenders](https://logback.qos.ch/manual/appenders.html))
 - Overall: Logstash
 
 ---
@@ -418,7 +418,6 @@ Ingesup Mx / YNOV / 2018
 https://db-engines.com/en/system/Elasticsearch%3BGraphite%3BInfluxDB%3BPrometheus
 
 ---
-
 
 ## Resources 
 
