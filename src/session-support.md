@@ -14,7 +14,7 @@ Ingesup Mx / YNOV / 2018
 ---
 
 ## Household
-### Tools 
+### Tools
 
 - Slideshow: markdown & reveal-md
 - Graphs and Whiteboard: draw.io
@@ -34,7 +34,7 @@ Ingesup Mx / YNOV / 2018
 
 ## Course design
 
-- 90 hours 
+- 90 hours
 - Mixing English and French
 - Mixing lectures and Practice
 
@@ -48,11 +48,11 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Approach 
+## Approach
 
 - Understand the basics
 - Don't panic
-- Don't get overexcited 
+- Don't get overexcited
 - Stay curious
 
 ---
@@ -63,7 +63,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Project 
+## Project
 
 - Identify
 - Design
@@ -80,7 +80,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## What is full-stack 
+## What is full-stack
 
 - Everything developer
 - Front-end, Back-end, Continuous Integration, Infrastructure
@@ -97,7 +97,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Full-stack 
+## Full-stack
 
 - Stay focused
 - Be efficient
@@ -105,7 +105,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Full-stack 
+## Full-stack
 
 - Best practices
 - [Clean Code](https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en)
@@ -118,12 +118,12 @@ Ingesup Mx / YNOV / 2018
 
 ## OS
 
-- \*n\*x: 
-- CoreOS, CentOS, Ubuntu, 
+- \*n\*x:
+- CoreOS, CentOS, Ubuntu,
 
 ---
 
-## Scripting 
+## Scripting
 
 - bash, shell
 - powershell
@@ -189,7 +189,7 @@ Ingesup Mx / YNOV / 2018
 
 ## DevOps
 
-- Docker, Rkt, Kubernetees, VirtualBox, 
+- Docker, Rkt, Kubernetees, VirtualBox,
 - vmware esxi
 - Heroku
 
@@ -199,7 +199,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Approach 
+## Approach
 
 - BDD / TDD
 - Clean code
@@ -213,16 +213,16 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Basics 
+## Basics
 
-- Iterative 
+- Iterative
 - Regular
 - Adjustable
 - Clear scope
 
 ---
 
-## Tools 
+## Tools
 
 - Gitflow
 - Waffle, Trello, Taiga
@@ -240,14 +240,14 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Documentation 
+## Documentation
 
-- Functional Specifications 
-- Technical Specifications 
+- Functional Specifications
+- Technical Specifications
 
 ---
 
-## App Sources 
+## App Sources
 
 - Repo link
 - Everything required to build the app
@@ -255,7 +255,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Sources 
+## Sources
 
 - Quality
 
@@ -263,13 +263,13 @@ Ingesup Mx / YNOV / 2018
 
 ## Infrastructure Sources
 
-- Scripts 
+- Scripts
 - Docker files
 - Ansible (?)
 
 ---
 
-## Deployment 
+## Deployment
 
 - Link
 
@@ -284,64 +284,64 @@ Ingesup Mx / YNOV / 2018
 ---
 
 ## Data assessment
-### Data Identification 
+### Data Identification
 
 - Data item types => confidentiality, integrity, and availability needs.
 
 ---
 
 ## Data assessment
-### Data Ownership and users 
+### Data Ownership and users
 
 - The data item owners and users => confidentiality, integrity, and possibly availability needs
 
 ---
 
 ## Data assessment
-### Data Confidentiality 
+### Data Confidentiality
 
-- The need to keep the data secret from unauthorized persons. 
+- The need to keep the data secret from unauthorized persons.
 - how much damage would be done if the data were obtained by unauthorized persons.
 - None/Low/Medium/High
 
 ---
 
 ## Data assessment
-### Data Integrity 
+### Data Integrity
 
-- The need to keep the data accurate and not allow unauthorized persons to change it. 
+- The need to keep the data accurate and not allow unauthorized persons to change it.
 - Consider the impact if the data were not correct.
 - None/Low/Medium/High
 
 ---
 
 ## Data assessment
-### Data Availability 
+### Data Availability
 
-- The need for the data to be available to authorized users. 
+- The need for the data to be available to authorized users.
 - Data owners should consider how their business processes would be impacted if they could not access their data for some period of time and what periods of time would be critical.
 - None/Low/Medium/High
 
 ---
 
 ## Data assessment
-### Data Criticality 
+### Data Criticality
 
 - How essential the data is to the operation of the organization.
 
 ---
 
 ## Data assessment
-### Data Access Determination 
+### Data Access Determination
 
 - Determining minimum access needs.
 
 ---
 
 ## Data assessment
-### Data and Application Location 
+### Data and Application Location
 
-- Risks of sending data across the network 
+- Risks of sending data across the network
 - Mitigation and transfer risk.
 
 ---
@@ -352,34 +352,34 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Datatypes 
+## Datatypes
 
 - Unstructured data: images, documents
 
 ---
 
-## Datatypes 
+## Datatypes
 
-- Metrtics: Logs, resources consumption 
+- Metrtics: Logs, resources consumption
 
 ---
 
-## Data relationship 
+## Data relationship
 
 - Relationship
-- Isolated data 
-- Corelations 
+- Isolated data
+- Corelations
 
 ---
 
 ## Data storage
 
-- Persistent 
-- Volatile 
+- Persistent
+- Volatile
 
 ---
 
-## Data recipes 
+## Data recipes
 ### Data store
 
 - Classics: Mysql, mongodb
@@ -388,7 +388,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Data recipes 
+## Data recipes
 ### Local data store
 
 - [Browser Local/Session storage](https://www.w3schools.com/html/html5_webstorage.asp)
@@ -399,8 +399,8 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Data recipes 
-### Logs 
+## Data recipes
+### Logs
 
 - node: [winston](https://github.com/winstonjs/winston), [winston transports](https://github.com/winstonjs/winston/blob/master/docs/transports.md)
 - Java: slf4j, log4j, logback (and [appenders](https://logback.qos.ch/manual/appenders.html))
@@ -408,7 +408,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Data recipes 
+## Data recipes
 ### Logs and Time series
 
 - InfluxDB
@@ -425,14 +425,14 @@ Ingesup Mx / YNOV / 2018
 
 ## Where
 
-- Client-side 
+- Client-side
 - Mono-Server
 - Multi-server
 - Mixed
 
 ---
 
-## What 
+## What
 
 - Event / Request
 - Asset (strings, array, map / html, json, image, stream, ...)
@@ -457,7 +457,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Protocols 
+## Protocols
 
 - HTTP(s)
 - WebSockets
@@ -467,9 +467,9 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Paradigms 
+## Paradigms
 
-- REST 
+- REST
 - [GraphQL](http://graphql.org)
 
 ---
@@ -498,7 +498,7 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-## Scripting 
+## Scripting
 
 - bash, shell
 - powershell
@@ -515,7 +515,7 @@ Ingesup Mx / YNOV / 2018
 ---
 
 ## Basics
-### Cron 
+### Cron
 
 - Scheduling tool
 - Exec whatever
@@ -528,37 +528,37 @@ Ingesup Mx / YNOV / 2018
 ## Basics
 ### Git Hooks
 
-- Client side / Server side 
+- Client side / Server side
 - [Doc](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 - [More doc](https://www.atlassian.com/git/tutorials/git-hooks)
 
 ---
 
-## Build 
+## Build
 
-- Git clone not enough 
+- Git clone not enough
 - Beware of scope
 - Beware of dependencies
 
 ---
 
-## Build 
+## Build
 
-- Test sources 
+- Test sources
 - Generate packaging
 
 ---
 
-## Build 
+## Build
 
 - mvn
-- node ... 
+- node ...
 - shell
 - docker build
 
 ---
 
-## Test 
+## Test
 
 - Unit testing (already done at deployment)
 - Integration testing: is everything built correctly?
@@ -566,17 +566,17 @@ Ingesup Mx / YNOV / 2018
 
 ---
 
-### Staging / Release 
+### Staging / Release
 
 - Can I release what I built
 - Shall I build again?
 
 ---
 
-## Deploy 
+## Deploy
 
 - ssh / scp
-- [Ansible](https://www.ansible.com) (actually ssh) 
+- [Ansible](https://www.ansible.com) (actually ssh)
 - Docker (... and who runs docker run?)
 
 ---
@@ -603,12 +603,103 @@ exec again
 
 ---
 
-## Release 
+## Release
 
 curl, wget, git clone, ... guess what? Exec again
 
 ---
 
-## Resources 
+# April 12th
+
+---
+
+## Reminder
+
+- Basics are essential
+- Dataflow and UX/Request flow in the core of the app
+- Tools don't matter
+
+---
+
+# Server side request handling
+
+---
+
+## Request handling
+### Basics
+
+- Action -> Reaction
+
+---
+
+## Request handling
+### Request Journey
+
+- Incoming request
+- Request routing
+- Response generation
+
+---
+
+## Request Journey
+### Incoming request
+
+- http -> mime type
+- socket
+- cron
+- ampq
+- whatever
+
+---
+
+## Request Journey
+### Response generation
+
+- Any response to incoming request
+- http (mime type), socket, ampq, whatever
+- May be indirect: generate another request  
+  - save file  
+  - send mail  
+
+---
+
+## Request Journey
+### Request Routing
+
+- Destination: Web server ([nodejs](https://nodejs.org/en/docs/guides/getting-started-guide/), jetty, tomcat, undertow)
+- How to get there: Reverse proxy (apache http, nginx, iis)
+
+---
+
+## Request Journey
+### Request Routing
+
+- "Smart" routing: e.g. JBoss/Wildfly
+- Replication
+- Load Balancing
+
+---
+
+## Request Journey
+### Request Routing
+
+Global Server load balancing: [When the going gets tough](https://www.youtube.com/watch?v=lIxUKbV0UEM)
+
+- DNS
+- CDN
+
+---
+
+## Request Journey
+### Request Routing
+
+- Beware of the Load
+- Beware of cache
+
+---
+
+---
+
+## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
