@@ -611,6 +611,16 @@ curl, wget, git clone, ... guess what? Exec again
 
 # April 12th
 
+
+
+---
+
+## Project reminder
+
+- Provide all kind of output: *specs, project management, sources, app, deployment urls*
+- "Half-way" report: April 29th
+- Oral presentation: May 25th
+
 ---
 
 ## Reminder
@@ -698,8 +708,147 @@ Global Server load balancing: [When the going gets tough](https://www.youtube.co
 
 ---
 
+## Request Journey
+### Origins
+
+- User: UX interaction
+- Machine: automated response or result of interaction
+- Different responses for different entities
+
+---
+
+## Request Origins
+### User
+
+- Browser
+- App
+
+---
+
+## User Requests
+### Scenarios
+
+- Best-case scenario will never happen
+- Browser restriction ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing))
+- Parental control
+- Firewalls/Infrastructure restriction
+
+---
+
+## Request Origins
+### Machine
+
+- (Web)service
+- Bot/Search bot
+- Malware/ransomware
+
+---
+
+## Machine Requests
+### Scenarios
+
+- Optimistic scenario: isolated application getting requests from web Server
+- Real-life scenario: openly exposed services consumed by malicious entities
+
+---
+
+## Real life scenarios
+
+- Something doesn't work as expected
+- == Attacks
+
+---
+
+## Attacks  
+### Machine Oriented
+
+- (D)DoS
+- Ping flood
+- IP Spoofing
+- etc.
+
+---
+
+## Attacks  
+### User-orieted
+
+- Phishing
+- Spoofing
+---
+
+# Protection
+
+---
+
+## System-oriented protection
+### Levels
+
+- Web server
+- Application
+- Code
+
+---
+
+## System-oriented protection
+### Tools & techniques
+
+- Depend on the level
+- Depend on the interface
+
+---
+
+## System-oriented protection
+### Tools & techniques
+
+- ssl encryption
+- firewalls
+- isolation
+
+---
+
+## User protection
+
+- Not obvious
+- Communication and education is needed
+
+---
+
+## User protection
+### Tools & techniques
+
+- Explicit TSL/SSL Certificates (https://letsencrypt.org)
+- Multi-factor authentication
+
+---
+
+## User protection
+
+- Authentication vs. Authorization
+- OAuth and SSO
+
+---
+
+## User protection
+### OAuth
+
+- One account - multiple services
+- One authorization per service
+
+---
+
+## User protection
+### SSO
+
+- One authentication for all
+- http://www.passportjs.org
+
+
+---
+
 ---
 
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
+- https://www.symantec.com/connect/articles/security-11-part-3-various-types-network-attacks
+- https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers
