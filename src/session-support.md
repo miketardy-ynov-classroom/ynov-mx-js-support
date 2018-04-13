@@ -845,6 +845,182 @@ Global Server load balancing: [When the going gets tough](https://www.youtube.co
 
 ---
 
+# April 13th
+
+---
+
+## Sensible data
+
+- Handling
+- Hiding
+
+---
+
+## Secrets
+### Worst practices
+
+- Hardcoded
+- Config file
+
+---
+
+## Secrets
+### Techniques
+
+- Cryptography
+- SHA*, bcrypt
+- e.g. Salt and pepper
+
+---
+
+## Secrets
+### Tools
+
+- [crypto-js](https://www.npmjs.com/package/crypto-js)
+- [Hashicorp Vault](https://www.vaultproject.io)
+- [Docker Secrets](https://docs.docker.com/engine/swarm/secrets/)
+
+---
+
+## Secrets
+### Real-life
+
+- Separation of concerns
+- ENV vars
+- Crypt values
+
+---
+
+## Secrets
+### Real-life
+
+- Beware of server access
+- Clean-up terminal history
+
+---
+
+---
+
+# Twelve factor application
+
+---
+
+# Twelve factor application
+
+- https://12factor.net
+
+---
+
+## Twelve factor application
+### I. Codebase
+
+One codebase tracked in revision control, many deploys
+
+- == do not copy repositories
+
+---
+
+## Twelve factor application
+### II. Dependencies
+
+Explicitly declare and isolate dependencies
+
+---
+
+## Twelve factor application
+### III. Config
+
+Store config in the environment
+
+- == no config in code
+
+---
+
+# Twelve factor application
+### IV. Backing services
+
+Treat backing services as attached resources
+
+- No distinction between local and third party services.
+- Everything as a service
+
+---
+
+# Twelve factor application
+
+V. Build, release, run
+Strictly separate build and run stages
+
+---
+
+## Twelve factor application
+### VI. Processes
+
+Execute the app as one or more stateless processes
+
+- Twelve-factor processes are stateless and share-nothing
+
+---
+
+## Twelve factor application
+### VII. Port binding
+
+Export services via port binding
+
+- Completely self-contained
+- Consuming via HTTP port
+
+---
+
+## Twelve factor application
+### VIII. Concurrency
+
+Scale out via the process model
+
+- handle concurrency on scale
+
+---
+
+## Twelve factor application
+### IX. Disposability
+
+Maximize robustness with fast startup and graceful shutdown
+
+- Can be started or stopped at a moment’s notice
+- robust against sudden death
+- == easy to throw app
+
+---
+
+## Twelve factor application
+### X. Dev/prod parity
+
+Keep development, staging, and production as similar as possible
+
+- Continuous deployment
+- Beware of dependencies versions
+
+---
+
+## Twelve factor application
+### XI. Logs
+
+Treat logs as event streams
+
+- A twelve-factor app never concerns itself with routing or storage of its output stream.
+- == use tools such as logstash or fluentd
+
+---
+
+## Twelve factor application
+### XII. Admin processes
+
+Run admin/management tasks as one-off processes
+
+- == Provide admin tools with your app
+
+---
+
 ---
 
 ## Resources
