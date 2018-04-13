@@ -1021,6 +1021,160 @@ Run admin/management tasks as one-off processes
 
 ---
 
+# User Experience
+
+---
+
+## User Experience
+### Principles
+
+- The user satisfaction is essential
+- User retention is key to success
+- Keep users by allowing them to spend less time with the app
+
+---
+
+## User Experience
+### Principles
+
+- Simplicity is the clue
+- [Three-click rule](https://en.wikipedia.org/wiki/Three-click_rule)
+- Give access to the essential information
+- Mobile-first
+
+---
+
+## User experience
+### Principles
+
+- One step at a time
+- Identify your priorities
+- Be ready for the sacrifices
+
+---
+
+## User experience
+### Failures
+
+- Too complex
+- Too slow
+
+---
+
+## User Experience
+### Failures
+
+- https://www.apple-pinklady.com/en/the-club/
+- https://particuliers.societegenerale.fr
+- https://drive.google.com/drive/my-drive
+- https://portal.office.com/
+
+---
+
+## User experience
+### Not so Failures: Standing out
+
+- https://craigslist.org
+- https://www.lingscars.com
+- http://www.milliondollarhomepage.com
+
+
+---
+
+## User experience
+### Not so Failures: Cultural differences
+
+- http://www.ruten.com.tw
+- https://www.rakuten.co.jp vs https://www.priceminister.com
+- https://www.yahoo.co.jp vs https://fr.yahoo.com/?p=us
+- https://www.goo.ne.jp
+
+---
+
+---
+
+# Front-end development
+
+---
+
+## Front-end Development
+### Basics
+
+- html
+- css
+- javascript/typescript
+
+---
+
+## Front-end Development
+### Basics
+
+- development: javascript/typescript
+- testing: mocha chai sinon, jest ...
+- build: webpack, parcel
+
+---
+
+## Front-end Development
+### UI Tools
+
+- Bootstrap
+- Material Components
+- Semantic-ui
+- ...Whatever
+
+---
+
+## Front-end Development
+### Frameworks and libs
+
+- Vuejs
+- AngularJS
+- ReactJS
+
+---
+
+## Front-end Development
+### Mobile
+
+- [Ionic](https://ionicframework.com)
+- [NativeScript](https://www.nativescript.org)
+
+---
+
+## Front-end Development
+### Desktop
+
+- [Electron](https://electronjs.org)
+- [NW.js](https://nwjs.io)
+
+---
+
+## Front-end Development
+### Tools don't matter (a lot)
+
+- Vue: [Native](https://nativescript-vue.org) vs [Ionic](https://github.com/wangdahoo/vonic)
+- Vue: [Electron](https://github.com/SimulatedGREG/electron-vue) vs [nw.js](https://github.com/elegantweb/nwjs-vue)
+
+---
+
+## Front-end development
+### CLI as a solution
+
+- vue cli: npm install -g @vue/cli
+- ng cli: npm i -g @angular/cli@latest
+- react cli: npm i -g create-react-app
+
+---
+
+## Front-end development
+### Vue baby steps
+
+- https://vuejs.org/v2/guide/components.html
+- https://vuejsdevelopers.com/2017/12/11/vue-ssr-router/
+
+---
+
 ---
 
 ## Resources
