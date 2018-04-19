@@ -1370,6 +1370,65 @@ https://en.wikipedia.org/wiki/List_of_software_development_philosophies
 
 - Forms: getting key info
 
+---
+
+# Fast and Furious development
+
+a.k.a Quick and Dirty
+
+---
+
+## F&F development
+### Principles
+
+- [Worse is better](https://en.wikipedia.org/wiki/Worse_is_better)
+- [Keep it simple, stupid](https://en.wikipedia.org/wiki/KISS_principle)
+- "Copy-paste is not a crime"
+
+---
+
+## F&F development
+### Principles
+
+- Keep track
+- Move forward
+- Share
+
+---
+
+## F&F development
+### Keep track: git
+
+- git init / git add / git commit / git push
+
+---
+
+## F&F development
+### Sharing scripts
+
+- via https://raw.githubusercontent.com
+
+- apt-get install curl
+- curl ... | sh
+
+---
+
+## F&F development
+### Docker as sharing tool
+
+- Docker + Dockerfile
+- Docker + script.sh
+
+---
+
+## F&F development
+### Tunnelling services
+
+- [ngrok](https://dashboard.ngrok.com/)
+
+
+---
+
 
 ---
 
