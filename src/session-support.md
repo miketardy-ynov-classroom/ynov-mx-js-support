@@ -1177,6 +1177,202 @@ Run admin/management tasks as one-off processes
 
 ---
 
+# April 19th
+
+---
+
+## Reminder
+
+- Basics are essential
+- Dataflow and UX/Request flow in the core of the app
+- Tools don't matter
+
+---
+
+## Project reminder
+
+- Provide all kind of output: *specs, project management, sources, app, deployment urls*
+- "Half-way" report: April 29th
+- Oral presentation: May 25th
+
+---
+
+# JavaScript Universe
+
+---
+
+## JavaScript Universe
+### Getting started
+
+- CLI: vue cli / ng cli / react cli
+- Vanilla JS: IDE or text editor; npm init
+
+---
+
+## Javascript Universe
+### Getting started: borderline and pervert stuff
+
+- Yeoman: http://yeoman.io/
+- Meteor:  
+  - https://guide.meteor.com  
+  - https://github.com/meteor-vue/vue-meteor  
+
+---
+
+## JavaScript Universe
+### Isomorphic Javascript
+
+- Render javascript everywhere
+
+---
+
+## JavaScript Universe
+## Isomorphic Javascript
+
+- Vue:
+  - NUXT https://nuxtjs.org  
+  - SSR https://vuejsdevelopers.com/2017/12/11/vue-ssr-router/
+- Angular Universal:  
+  - https://universal.angular.io  
+  - https://angular.io/guide/universal  
+- React: https://github.com/DavidWells/isomorphic-react-example
+
+---
+
+## JavaScript Universe
+### Isomorphic Javascript: Different View
+
+- Optimize
+- DRY: Don't Repeat Yourself
+- Dependencies management
+
+---
+
+## "Isomorphic" Javascript
+### Optimize: SEO
+
+- Meta-data and navigation is crucial
+
+---
+
+## "Isomorphic" Javascript
+### Optimize: Performance
+
+- You don't have to do everything client-side
+- You don't know know who uses your app
+
+---
+
+## "Isomorphic" Javascript
+### Optimize: Behavior/UX
+
+- You want the app do the exactly that thing you dreamed of
+
+---
+
+## "Isomorphic" Javascript
+### DRY: Principles
+
+- You may have common features, tools, business
+- These features may be used client- and server-side
+- You should not copy-paste this kind of stuff
+
+---
+
+## "Isomorphic" Javascript
+### DRY: Examples
+
+- Consuming webservices
+- Text/Data formatting
+
+---
+
+## "Isomorphic" Javascript
+### DRY: etc
+
+https://en.wikipedia.org/wiki/List_of_software_development_philosophies
+
+---
+
+## "Isomorphic" Javascript
+### Dependencies management
+
+- npm
+- composer
+- maven
+- Docker
+
+---
+
+## "Isomorphic" Javascript
+### Dependencies management
+
+
+- NPM: https://gemfury.com/help/npm-registry/
+
+- https://docs.npmjs.com/misc/registry
+
+
+---
+
+## "Isomorphic" Javascript
+### Dependencies management: Tools
+
+- Nexus OSS:  
+  - https://hub.docker.com/r/sonatype/nexus3/  
+  - https://help.sonatype.com/repomanager3
+- Sinopia:  
+  - https://www.npmjs.com/package/sinopia
+
+---
+
+---
+
+# UI & Rendering: Making the right choice
+
+---
+
+## UI Best practices
+### Meta-data
+
+- Seo referencing
+- Cache etc.
+
+---
+
+## UI Best practices
+### Internationalization
+
+- Angular: https://angular.io/guide/i18n
+- Vue: https://github.com/kazupon/vue-i18n
+
+---
+
+## UI Best practices
+### Widgets hell
+
+- [Facebook](https://www.facebook.com)
+- [linkedin](https://www.linkedin.com/feed/)
+- [Amazon](https://www.amazon.fr)
+- [Airbnb](https://www.airbnb.com)
+
+---
+
+## UI Best practices
+### Interface Components
+
+- Icons: https://www.flaticon.com
+- Images: https://ccsearch.creativecommons.org
+
+---
+
+## UI Best Practices
+
+- Forms: getting key info
+
+
+---
+
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
