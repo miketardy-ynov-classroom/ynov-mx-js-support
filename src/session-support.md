@@ -1429,6 +1429,160 @@ a.k.a Quick and Dirty
 
 ---
 
+---
+
+# April 20th
+
+---
+
+# Servers setup
+
+---
+
+## Project reminder
+
+- "Half-way" report: April 29th
+- Oral presentation: May 25th (slides, demo and whatever)
+- Beware of the deadline
+
+---
+
+## Side notes
+### Backend options
+
+- Python: http://flask.pocoo.org
+- Go: https://github.com/kataras/iris
+- Haskell: https://www.yesodweb.com
+
+---
+
+# Progressive Web Applications (PWA)
+
+---
+
+## PWA
+### Principles (by Google)
+
+- Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
+- Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.
+- Engaging - Feel like a natural app on the device, with an immersive user experience.
+
+---
+
+## PWA
+### Principles (by Wikipedia) (1)
+
+- Progressive - Work for every user, regardless of browser choice because they’re built with progressive enhancement as a core tenet.
+- Responsive - Fit any form factor: desktop, mobile, tablet, or forms yet to emerge.
+- Connectivity independent - Service workers allow work offline, or on low quality networks.
+- App-like - Feel like an app to the user with app-style interactions and navigation.
+
+---
+
+## PWA
+### Principles (by Wikipedia) (2)
+
+- Fresh - Always up-to-date thanks to the service worker update process.
+- Safe - Served via HTTPS to prevent snooping and ensure content hasn’t been tampered with.
+- Discoverable - Are identifiable as “applications” thanks to W3C manifests[6] and service worker registration scope allowing search engines to find them.
+
+---
+
+## PWA
+### Principles (by Wikipedia) (3)
+
+- Re-engageable - Make re-engagement easy through features like push notifications.
+- Installable - Allow users to “keep” apps they find most useful on their home screen without the hassle of an app store.
+- Linkable - Easily shared via a URL and do not require complex installation.
+
+---
+
+## PWA
+### Basics
+
+- HTTPS
+- [Web App manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
+- [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers/)
+
+---
+
+## PWA
+### Basics
+
+- Secure (https)
+- Works Offline (service workers cache)
+- Push notifications (service workers)
+- Add to Home Screen (Web app manifest)
+
+---
+
+## PWA
+### Reports
+
+- https://medium.com/progressive-web-apps/2018-state-of-progressive-web-apps-f7517d43ba70
+
+---
+
+## Service Workers
+### Principles
+
+- Install
+- Listen to events: Request and cache
+- Sync
+
+---
+
+## Service Workers
+### Principles
+
+- Download
+- Install
+- Activate
+
+---
+
+## Service Workers
+### More stuff: Background Sync
+
+- Queue data fetching
+- Getting data in background
+
+---
+
+## Service Workers
+### More stuff: Background Sync
+
+- [Google Guide](https://developers.google.com/web/updates/2015/12/background-sync)
+- [Tutorial](https://ponyfoo.com/articles/backgroundsync)
+
+---
+
+## Service Workers
+### Beware of standards
+
+- A lot of working draft
+- [CanIUse.com](https://caniuse.com/#search=workers)
+- [Non standard features](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/sync)
+
+---
+
+## Service Workers
+### Getting started
+
+- [Google Guide](https://developers.google.com/web/fundamentals/primers/service-workers/)
+- [Google Labs: Offline first](https://developers.google.com/web/ilt/pwa/lab-offline-quickstart)
+- [Google Labs: Service Worker](https://developers.google.com/web/ilt/pwa/lab-scripting-the-service-worker)
+- [Google Labs: Push Notifications](https://developers.google.com/web/ilt/pwa/lab-integrating-web-push)
+
+---
+
+## Service Workers
+### Getting started: a touch of vue
+
+- [Tutorial Part 1](https://blog.sicara.com/a-progressive-web-application-with-vue-js-webpack-material-design-part-1-c243e2e6e402)
+- [Tutorial Part 2](https://medium.com/bam-tech/a-progressive-web-application-with-vue-js-webpack-material-design-part-2-a5f19e70e08b)
+
+---
 
 ---
 
