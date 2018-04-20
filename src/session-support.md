@@ -1584,7 +1584,108 @@ a.k.a Quick and Dirty
 
 ---
 
+# April 26th, 6:30pm
+## Valeuriad Data Science Event
+
 ---
+
+# HTTP/2
+
+---
+
+## HTTP/2
+
+- https://twitter.com/kosamari/status/859958929484337152?utm_source=syndicate&utm_medium=post&utm_campaign=scotch-jun172510
+
+---
+
+## HTTP
+### From HTTP 1.1 to HTTP/2
+
+- One pipe, multiple data
+- Traffic optimization
+- More efficient data exchange
+
+---
+
+## HTTP
+### From HTTP 1.1 to HTTP/2
+
+- All requests are downloaded in parallel, not in a queue
+- HTTP headers are compressed
+- Pages transfer as a binary, not as a text file, which is more efficient
+- Servers can “push” data even without the user’s request, which improves speed for users with high latency
+
+---
+
+## HTTP/2
+### Getting started
+
+- npm i -g static-http2-server
+- nginx https://www.nginx.com/blog/nginx-1-13-9-http2-server-push/
+
+---
+
+## HTTP/2
+### Beyond the fun
+
+- Not yet really useful in REST API
+- Might be overkill in basic use cases
+
+---
+
+## HTTP/2
+### Beyond the fun
+
+- (Still) limited browser support
+- [CanIUse](https://caniuse.com/#feat=http2)
+
+---
+
+---
+
+# FrontEnd: HTML & CSS
+
+---
+
+## FrontEnd: HTML & CSS
+
+- Don't stick to one framework
+
+---
+
+## HTML
+### Master the basics
+
+- Right tags for right purpose: tables, divs, lists
+
+---
+
+## HTML
+### Master the basics
+
+- Think about SEO: Title, meta, H*, img alt, links
+
+---
+
+## CSS
+### Master the basics
+
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid vs. flexbox](https://css-tricks.com/css-grid-replace-flexbox/)
+
+---
+
+## CSS & HTML
+### Bootstrap
+
+- [12 columns grid pattern](https://getbootstrap.com/docs/4.0/layout/grid/#horizontal-alignment)
+
+---
+
+---
+
 
 ## Resources
 
