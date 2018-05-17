@@ -1686,9 +1686,304 @@ a.k.a Quick and Dirty
 
 ---
 
+# May 17th
+
+---
+
+## Project reminder
+
+- ~~"Half-way" report: April 29th~~ - ok
+- Presentation: May 25th (slides, demo and whatever)
+- Beware of the deadline
+
+---
+
+## Project grading
+### Mostly tech-oriented
+
+- Technology choice
+- Clarity of presentation
+- Beware of the deadline
+
+---
+
+## Project grading
+### Clarity of presentation
+
+- Report
+- Output
+
+---
+
+## Project grading
+### Achievements
+
+- Roadmap ambitions vs. reality
+- Deliverables
+
+---
+
+## Project grading
+### Project management
+
+- Team roles
+- Tasks management
+- Scope definition
+
+---
+
+## Project grading
+### Bonus
+
+- Any outstanding feature
+
+---
+
+## Reminder
+
+- Basics are essential
+- Dataflow and UX/Request flow in the core of the app
+- Tools don't matter
+
+---
+
+## Reminder
+
+- Front-End: anything that can be read by a browser
+- Back-End: any app able to do data processing
+
+---
+
+## Mentoring opportunity
+
+- Project demo by Ingesup B1
+- Technical challenging
+
+---
+
+---
+
+# Building stuff
+
+---
+
+## Building
+### Basics
+
+- Scan sources
+- Compile
+- Generate output
+
+---
+
+## Building
+### Principles
+
+- Generate package
+- Bundling vs. Task runners
+
+---
+
+## Building
+### Tools
+
+- Front-End Bundlers: Webpack, Parcel, RollUp
+- Back-end: composer, cargo, maven...
+- Task runners: Npm, make, grunt, gulp
+- (https://survivejs.com/webpack/appendices/comparison/)
+
+---
+
+## Front-end Build
+### Pipeline
+
+- Assets management
+- Pre/post process css
+- Code splitting
+
+---
+
+## Front-end build
+### Assets management
+
+- Images: file vs. [base64](https://github.com/webpack-contrib/url-loader)
+- Fonts
+- Data (csv, xml) - [json not needed](https://github.com/webpack-contrib/json-loader)
+
+
+---
+
+## Front-end build
+### CSS handling
+
+- [CSS](https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3)
+
+---
+
+## Front-end build
+### Webpack
+
+- [Power-lifting bundler](https://webpack.js.org/guides/)
+
+---
+
+## Front-end build
+### Parcel
+
+- ["Zero-conf" bundler](https://github.com/parcel-bundler/parcel)
+
+---
+
+## Front-End build
+### Frameworks
+
+- Angular: [default](https://github.com/angular/angular-cli/wiki/build), [webpack](https://angular.io/guide/webpack)
+- Nuxt: [config](https://nuxtjs.org/api/configuration-build/), [code](https://github.com/nuxt/nuxt.js/blob/dev/lib/builder/builder.js)
+
+---
+
+## Building
+### Where to go from here
+
+- Package Management (e.g. nexus)
+- Production deploy (scp or [nexus](https://sdqali.in/blog/2017/08/17/uploading-a-standalone-artifact-to-nexus-3/))
+
+---
+
+---
+
+#  Managing Deliverables
+
+---
+
+## Managing Deliverables
+### Requirements
+
+- Stable
+- Versionable
+- Archivable
+
+---
+
+## Managing Deliverables
+### Requirements
+
+- Knowing what was deployed and when
+
+---
+
+## Managing Deliverables
+### Tools
+
+- File server
+- Git
+- Artifactory
+- Nexus
+- [or else](https://binary-repositories-comparison.github.io)
+
+---
+
+## Managing Deliverables
+### Nexus OSS
+
+- ~~Everything~~ Most of what you may need
+
+---
+
+## Nexus OSS
+### Deploying
+
+- [Deploy npm](https://books.sonatype.com/nexus-book/2.13/reference/npm-deploying-packages.html)
+- [Deploy Zip](https://sdqali.in/blog/2017/08/17/uploading-a-standalone-artifact-to-nexus-3/)
+
+---
+
+## Nexus OSS
+### Consuming
+
+- NPM: `npm i --registry ...`
+- [Zip](https://support.sonatype.com/hc/en-us/articles/213465488-How-can-I-retrieve-a-snapshot-if-I-don-t-know-the-exact-filename-): `wget ...`, `mvn dependency:get`
+- Beware of Nexus 3 ([1](https://stackoverflow.com/questions/39488834/nexus-3-rest-api-to-download-artifacts), [2](https://groups.google.com/a/glists.sonatype.com/forum/#!topic/nexus-users/xdsKXeveUL0))
+- [Checkout Nexus API](http://localhost:8081/swagger-ui/#!/assets/getAssets)
+
+---
+
+
+---
+
+# Audit and Metrics
+
+---
+
+## Audit and Metrics
+### Why?
+
+- Master application behavior
+- Monitoring and diagnostic
+- Continuous improvement
+- Debug
+
+---
+
+## Audit and Metrics
+### Centralize
+
+- Logstash
+- ELK
+- Prometheus
+
+---
+
+## Audit and metrics
+### Front end
+
+- Monitoring user actions
+- Beyond server Requests
+
+---
+
+## Audit and metrics
+### Front end
+
+- Plain DIY web service
+- Turnkey solution: [logstash](https://www.elastic.co/blog/introducing-logstash-input-http-plugin), [beaver-logger](https://github.com/krakenjs/beaver-logger)
+
+---
+
+## Audit and metrics
+### Front end: Be careful
+
+- Bandwidth
+- Performances
+- Security
+- You do not want make things worse
+
+---
+
+## Audit and metrics
+### Back-end
+
+- Any logging solution + logstash
+- Middleware: e.g. [morgan](https://github.com/expressjs/morgan) 4 expressjs
+
+
+---
+
+## Audit and metrics
+### Builds and updates
+
+- Same stuff: get key/critical info
+- Logstash, prometheus, or custom web services
+
+---
+
 
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
 - https://www.symantec.com/connect/articles/security-11-part-3-various-types-network-attacks
 - https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers
+
+
+- https://medium.freecodecamp.org/9-neat-javascript-tricks-e2742f2735c3
+- https://survivejs.com/webpack/appendices/comparison/
