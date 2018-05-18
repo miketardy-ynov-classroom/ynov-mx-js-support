@@ -1978,6 +1978,169 @@ a.k.a Quick and Dirty
 ---
 
 
+
+---
+
+# May 18th
+
+---
+
+## Project reminder
+
+- ~~"Half-way" report: April 29th~~ - ok
+- Presentation: May 25th (slide deck, demo and whatever)
+
+---
+
+## Project grading
+
+- Beware: roles and task management
+- Think about git, gitflow and individual contributions
+
+---
+
+# Testing
+
+---
+
+## Testing
+### Why?
+
+- Mastering the software
+- Avoid breaking things
+- Avoid (bad) surprises
+
+---
+
+## Testing
+### How?
+
+- Manual mode: open, view, note
+- By writing software
+
+---
+
+## Testing
+### How?
+
+- Choose any tool you can work with
+
+---
+
+## Testing
+### Tools
+
+- PHP: PHPunit
+- Java: JUnit, TestNG
+- python: [unittest](https://docs.python.org/3/library/unittest.html)
+- go: [testing](https://golang.org/pkg/testing/), [goblin](https://github.com/franela/goblin)
+- C++: [CUnit](http://cunit.sourceforge.net/doc/writing_tests.html)
+- JS: [mocha](https://medium.com/@jaysoifer/testing-vue-js-applications-with-karma-and-mocha-and-chai-14d9015f1889), chai, sinon, jasmin, karma, jest, [nightwatch](https://badacadabra.github.io/End-to-End-testing-with-Nightwatch-js-TDD-vs-BDD/), CasperJS
+
+---
+
+## Testing
+### JS Frameworks
+
+- Vue ([1](https://vue-test-utils.vuejs.org/en/guides/testing-SFCs-with-mocha-webpack.html), [2](https://vuejsdevelopers.com/2017/12/25/vue-js-test-driven-development-tdd/), [3](https://github.com/Techroombyjp/vue-bdd))
+- Angular ([1](https://angular.io/guide/testing))
+
+
+---
+
+## Testing
+### Back To Basics
+
+- Well written tests may save ~~lives~~ time
+- Bad tests are [PITA](https://www.urbandictionary.com/define.php?term=pita)
+
+---
+
+## Testing
+### Back To Basics
+
+- Avoid wasting time
+- Stay efficient
+- Do not spend all your time ~~testing~~ coding tests
+
+---
+
+## Testing
+### Definitions
+
+- Unit testing
+- Integration testing
+- Validation testing
+- End-to-End testing
+
+---
+
+## Testing
+### Definitions
+
+- Mocking
+- Test coverage
+- TDD: Test Driven Development
+- [BDD](https://www.infoq.com/news/2015/02/introducing-bdd): Behaviour Driven Development ([1](https://www.agilealliance.org/glossary/bdd/), [2](https://dannorth.net/introducing-bdd/), [3](https://www.atlassian.com/blog/software-teams/making-the-shift-to-behavior-driven-development))
+
+---
+
+## Testing
+### Definitions
+
+- [Blue/Green deployment](http://blog.christianposta.com/deploy/blue-green-deployments-a-b-testing-and-canary-releases/)
+- [Canary deployment](https://octopus.com/docs/deployment-patterns/canary-deployments)
+
+---
+
+## Testing
+### Back to Real Life
+
+- Spaghetti testing code
+- No tests whatsoever
+- Testing evidence
+
+
+---
+
+## Testing
+### Back to Real Life
+
+$$
+Tests = \frac{1}{Method Size}
+$$
+
+---
+
+## Testing
+### Back to Real Life
+
+- [When the going gets tough](https://www.youtube.com/watch?v=lIxUKbV0UEM)
+
+---
+
+## Testing
+### Making life easier
+
+- Refactor
+- Keep code alive
+- Write tests continuously
+
+---
+
+## Testing
+### Making life easier
+
+- Think testing when coding
+- Test anything you want to keep control of
+
+---
+
+
+
+---
+
+
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
