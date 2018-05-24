@@ -2403,6 +2403,208 @@ Stay consistent no matter the context
 
 ---
 
+# Software development as a craft
+
+---
+
+## Software development as a craft
+
+[The Clean Coder](https://books.google.fr/books/about/The_Clean_Coder.html?id=ik0qCTVzl44C&source=kp_cover) *by Robert C. Martin*
+
+Don't forget about [Clean Code](https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba)
+
+---
+
+## Craftsmanship
+### Cultural issues
+
+---
+
+## Craftsmanship
+### Cultural issues
+
+1. People who have no idea about IT
+
+---
+
+## Craftsmanship
+### Cultural issues
+
+2. People who make wrong ideas about IT
+
+---
+
+## Craftsmanship
+### Team Work
+
+---
+
+## Craftsmanship
+### Team Work
+
+- Clear communication
+
+---
+
+## Craftsmanship
+### Team work
+
+- [Management](http://dilbert.com/strip/2018-04-20)
+- Commitment
+
+---
+
+## Craftsmanship
+### Team Work
+
+- Saying Yes vs. Saying No
+
+---
+
+## Craftsmanship
+### Team Work
+
+**Fixing goals**
+
+- DONE definition
+- Milestones and deliverables
+
+---
+
+## Craftsmanship
+### Time Estimation
+
+---
+
+## Craftsmanship
+### Time Estimation
+
+- Don't try to master Everything
+- Don't be too optimistic/pessimistic
+
+---
+
+## Craftsmanship
+### Time Estimation
+
+- O: Optimistic estimate
+- N: Neutral estimate
+- P: Pessimistic estimate
+
+---
+
+## Craftsmanship
+### Time Estimation
+
+Consider:
+
+- slowdowns: personal inefficiency
+- debug, failures: lack of knowledge
+- meeting loophole: talking about delays
+
+---
+
+## Craftsmanship
+### Time Estimation
+
+$$
+\mu = \frac{O + 4N + P}{6}
+$$
+
+
+$$
+\sigma = \frac{P - O}{6}
+$$
+
+---
+
+## Craftsmanship
+### Time Estimation: Everyday Reality
+
+- 8 hours/day => 40 hours / week
+- 20 min daily meeting
+- Support request / legacy debug
+- Unscheduled meetings
+
+=> 30 hours max
+
+
+---
+
+## Craftsmanship
+### Time Estimation: Project Reality
+
+- 75 hours lectures + project
+- 40% lectures
+- 5% lateness / delays
+- 40 hours * 5 people
+
+=> 200 hours
+
+---
+
+## Craftsmanship
+### Time management
+
+---
+
+## Craftsmanship
+### Time management
+
+- Fixing realistic objectives and deadlines
+- Staying efficient
+
+---
+
+## Craftsmanship
+### Time management
+
+- Procrastination
+- Avoidance
+- Priority inversion
+
+---
+
+## Craftsmanship
+### Time management: Performance estimation
+
+- Tomatoes
+- Tasks amount
+- [Tasks/Story points](https://www.mountaingoatsoftware.com/blog/dont-estimate-the-sprint-backlog-using-task-points)
+
+---
+
+## Craftsmanship
+### Coding
+
+- Stay professional
+- Don't rush
+- Do not force
+
+---
+
+## Craftsmanship
+### Collaboration
+
+- Pair programming
+- Meetups
+- Exchange & share
+- Ask for help
+
+---
+
+## Craftsmanship
+### Keeping pace
+
+- Learn
+- Stay up to date
+- Practice
+- Put in extra hours
+
+---
+
+---
+
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
