@@ -2140,6 +2140,268 @@ $$
 
 ---
 
+# May 24th
+
+---
+
+## Project reminder
+
+- Presentation: (slide deck, demo and whatever)
+- May 25th 1PM - ...
+- ~(20+20): ~20 for presentation + ~20 for Board and Audience questions
+
+---
+
+---
+
+# Tech jungle
+
+---
+
+## Tech jungle
+### Front-End
+
+- Angular, React, Vue
+- Inferno, Preact, Svelte
+- jQuery, Backbone, Ember
+- Example: Vue.js alternatives [1](https://www.slant.co/options/11378/alternatives/~vue-js-alternatives), [2](https://vuejs.org/v2/guide/comparison.html)
+
+---
+
+## Tech jungle
+### Front-End / Changelogs
+
+- [Angular](https://github.com/angular/angular/blob/master/CHANGELOG.md)
+- [React](https://github.com/facebook/react/blob/master/CHANGELOG.md)
+- [Vuejs](https://github.com/vuejs/vue/releases)
+
+---
+
+## Tech jungle
+### Backend
+
+- JavaScript (Node.js + express)
+- PHP
+- [Ruby On Rails](https://openclassrooms.com/paths/104-full-stack-developer)
+- Python
+- Java
+- ...
+
+---
+
+## Tech jungle
+### Databases
+
+- MySQL
+- PostreSQL
+- MSSQL
+- MongoDB
+- ...
+
+---
+
+## Tech jungle
+### DevOps
+
+- [DevOps Periodic Table](https://xebialabs.com/periodic-table-of-devops-tools/)
+
+---
+
+## Tech jungle
+### Bonus: Slide deck
+
+- Powerpoint
+- Open/Libre-Office
+- [Slides](https://slides.com)
+- [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX))
+- [Reveal-md](https://github.com/webpro/reveal-md)
+- ...
+
+---
+
+## Tech jungle
+
+**The way out**
+
+---
+
+## Tech jungle
+### The way out: Standards
+
+Don't be too inventive
+
+---
+
+## The way out
+### Standards
+
+- **HTML/CSS**
+- JSON
+- XML/XSL
+- *GraphQL*
+- [DICOM](https://github.com/ivmartel/dwv)
+
+---
+
+## The way out
+### Data structures, Algorithms, Big-O notation
+
+Don't make your stuff uselessly complex
+
+---
+
+## The way out
+### Data structures
+
+- Think beyond arrays and maps
+- Lists, queues, deques, stacks, Sets
+- Pick the right one
+
+---
+
+## The way out
+### Data structures
+
+- Beware of data types
+- Strings: size
+- Numbers: precision
+
+---
+
+## The way out
+### Algorithms
+
+- Avoid N-nested loops
+
+---
+
+## The way out
+### Big-O notation
+
+- [Make an estimate of the complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
+
+---
+
+## The way out
+### Don't waste your time on choices
+
+Never bet on one horse
+
+---
+
+## The way out
+### Don't waste your time on choices
+
+- Big chances your choice become obsolete
+- Master your dependencies
+- [React License Drama](https://medium.com/@raulk/if-youre-a-startup-you-should-not-use-react-reflecting-on-the-bsd-patents-license-b049d4a67dd2)
+- [Polymer](https://github.com/Polymer/polymer/wiki/Who%27s-using-Polymer%3F)
+- [Ember](https://www.emberjs.com/ember-users/)
+
+---
+
+## The way out
+### Understanding the technology
+
+Master the intelligence under the hood
+
+---
+
+## The way out
+### Understanding the technology
+
+- [Virtual DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+- [Incremental DOM](https://medium.com/google-developers/introducing-incremental-dom-e98f79ce2c5f)
+
+---
+
+## The way out
+### Best practices
+
+Stay consistent no matter the context
+
+---
+
+## The way out
+### Best practices
+
+**From the inside**
+
+- Software design
+- Procedures
+- Versioning
+- Backups
+
+---
+
+## The way out
+### Best practices
+
+**Software Design**
+
+- UML, Merise, or whatever
+- Stay agile
+
+---
+
+## The way out
+### Best practices
+
+**Procedures**
+
+- master your activity
+- You don't have to automate everything
+
+---
+
+## The way out
+### Best practices
+
+**Always backup**
+
+- ****: [rule of three](https://www.hanselman.com/blog/TheComputerBackupRuleOfThree.aspx)
+- Something may go wrong
+
+---
+
+## The way out
+### Best practices
+
+**Versioning**
+
+- git or whatever
+- Keep track of your progress
+
+---
+
+## The way out
+### Best practices
+
+**From the outside**
+
+- Care about your users
+- Don't code for yourself
+
+---
+
+## The way out
+### Care about your users
+
+- Identify your users
+- Know what they need / want
+- Avoid to sell shit
+
+---
+
+## The way out
+### Don't code for yourself
+
+- Keep code [clean](https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba)
+- Comments etc.
+
+---
+
+---
 
 ## Resources
 
