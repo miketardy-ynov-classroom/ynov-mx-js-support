@@ -2605,6 +2605,100 @@ $$
 
 ---
 
+# May 25th
+
+---
+
+# Web Full Stack
+
+---
+
+## How big is the web?
+### How to estimate?
+
+- http://www.worldwidewebsize.com/
+
+- [Index-based](http://www.worldwidewebsize.com/)
+- [Indexing is not always true](https://searchengineland.com/why-google-cant-count-results-properly-53559)
+
+---
+
+## How big is the web?
+### Plenty of stats
+
+- [1](http://www.internetlivestats.com/total-number-of-websites/), [2](https://www.softwarefindr.com/how-many-websites-are-there/)
+
+---
+
+## How big is the web?
+### Averaging
+
+- Somewhat 1 website for 6 people
+- Thousands of pages per person
+
+---
+
+## How big is the web?
+### Copy-paste and Sponsored content
+
+- [PlanetF1](http://www.planetf1.com)
+- [CNN](https://edition.cnn.com)
+- Sponsored news: [1](http://journals.sagepub.com/doi/abs/10.1177/0002764216660140?journalCode=absb), [2](http://www.businessinsider.fr/us/how-deceptive-sponsored-news-articles-could-be-undermining-trusted-news-brands-even-with-a-disclosure-message-2016-3), [3](https://www.brandpoint.com/blog/native-advertising-vs-sponsored-content-whats-the-difference/)
+
+---
+
+## Web Full Stack
+### Long journey
+
+- [Facebook](https://web.archive.org/web/20050806011211/http://facebook.com:80/)
+- Youtube: [1](https://web.archive.org/web/20060428025149/http://www3.youtube.com:80/),
+[2](https://web.archive.org/web/20050428014715/http://www.youtube.com/)
+- [Digging more](http://web.archive.org/)
+
+---
+
+## Web Full Stack
+### Where does it end?
+
+- [Elm](http://elm-lang.org)
+- [webassembly](https://webassembly.org)
+- [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) a.k.a. dark web
+- Blockchain, Ethereum and dApps: [web3.js](https://github.com/ethereum/web3.js/)
+
+
+---
+
+## Web Full Stack
+### Try to not get crazy
+
+- https://circleci.com/blog/its-the-future/
+- https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f
+
+---
+
+## Web Full Stack
+### Focus on essentials
+
+- Find something your are excited about
+- Do (code) stuff that makes sense to you
+
+---
+
+## Topics of interest
+
+- Sport
+- Games
+- Development
+- Learning
+
+---
+
+## Personal experience
+
+http://github.com/
+
+---
+
 ## Resources
 
 - https://books.google.fr/books/about/Clean_Code.html?id=hjEFCAAAQBAJ&redir_esc=y&hl=en12Ba
